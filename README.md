@@ -10,7 +10,7 @@ Using the [Geschäftspartner Replikation Bestätigung](https://github.com/Integr
 ## How does this API work?
 Multiple links to the official sap documentation will help you understand the different parameters and necessary parts of information to use the API successfully. 
 
-To provide a fast and easy reference, we recommend that you start by reviewing our [empty replication confirmation request XML file](https://github.com/Integra-SUPERB/INTEGRA_Geschaeftspartner-anlegen/blob/main/BusinessPartnerSUITEBulkReplicateConfirmation_Out.xml). This file is intended to help you understand the structure and format of the request data that you need to provide in order to use the API.
+To provide a fast and easy reference, we recommend that you start by reviewing our [empty replication confirmation request XML file](https://github.com/Integra-SUPERB/INTEGRA_Geschaeftspartner-replikation/blob/main/BusinessPartnerSUITEBulkReplicateConfirmation_Out.xml). This file is intended to help you understand the structure and format of the request data that you need to provide in order to use the API.
 
 The description for the replication of a business partner **inbound** is found here: [Replicate request in service.](https://api.sap.com/api/OP_BUSINESSPARTNERSUITEBULKREPLIC/resource)
 
