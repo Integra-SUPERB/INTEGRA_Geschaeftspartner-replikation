@@ -1,0 +1,351 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:glob="http://sap.com/xi/SAPGlobal20/Global">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <glob:BusinessPartnerSUITEBulkReplicateConfirmation>
+         <MessageHeader BusinessDocumentObjectListCompleteTransmissionIndicator="?">
+            <!--Optional:-->
+            <ID schemeID="?" schemeAgencyID="?" schemeAgencySchemeAgencyID="?">?</ID>
+            <!--Optional:-->
+            <UUID schemeID="?" schemeAgencyID="?">?</UUID>
+            <!--Optional:-->
+            <ReferenceID schemeID="?" schemeAgencyID="?" schemeAgencySchemeAgencyID="?">?</ReferenceID>
+            <!--Optional:-->
+            <ReferenceUUID schemeID="?" schemeAgencyID="?">?</ReferenceUUID>
+            <!--Optional:-->
+            <CreationDateTime>?</CreationDateTime>
+            <!--Optional:-->
+            <TestDataIndicator>?</TestDataIndicator>
+            <!--Optional:-->
+            <ReconciliationIndicator>?</ReconciliationIndicator>
+            <!--Optional:-->
+            <SenderBusinessSystemID>?</SenderBusinessSystemID>
+            <!--Optional:-->
+            <RecipientBusinessSystemID>?</RecipientBusinessSystemID>
+            <!--Optional:-->
+            <SenderParty>
+               <!--Optional:-->
+               <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+               <!--Zero or more repetitions:-->
+               <StandardID schemeAgencyID="?">?</StandardID>
+               <!--Optional:-->
+               <ContactPerson>
+                  <!--Optional:-->
+                  <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+                  <!--0 to 4 repetitions:-->
+                  <OrganisationFormattedName>?</OrganisationFormattedName>
+                  <!--0 to 4 repetitions:-->
+                  <PersonFormattedName>?</PersonFormattedName>
+                  <!--Zero or more repetitions:-->
+                  <PhoneNumber>
+                     <!--Optional:-->
+                     <AreaID>?</AreaID>
+                     <!--Optional:-->
+                     <SubscriberID>?</SubscriberID>
+                     <!--Optional:-->
+                     <ExtensionID>?</ExtensionID>
+                     <!--Optional:-->
+                     <CountryCode>?</CountryCode>
+                     <!--Optional:-->
+                     <CountryDiallingCode>?</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="?">?</CountryName>
+                  </PhoneNumber>
+                  <!--Zero or more repetitions:-->
+                  <FaxNumber>
+                     <!--Optional:-->
+                     <AreaID>?</AreaID>
+                     <!--Optional:-->
+                     <SubscriberID>?</SubscriberID>
+                     <!--Optional:-->
+                     <ExtensionID>?</ExtensionID>
+                     <!--Optional:-->
+                     <CountryCode>?</CountryCode>
+                     <!--Optional:-->
+                     <CountryDiallingCode>?</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="?">?</CountryName>
+                  </FaxNumber>
+                  <!--Zero or more repetitions:-->
+                  <EmailURI schemeID="?">?</EmailURI>
+               </ContactPerson>
+            </SenderParty>
+            <!--Optional:-->
+            <RecipientParty>
+               <!--Optional:-->
+               <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+               <!--Zero or more repetitions:-->
+               <StandardID schemeAgencyID="?">?</StandardID>
+               <!--Optional:-->
+               <ContactPerson>
+                  <!--Optional:-->
+                  <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+                  <!--0 to 4 repetitions:-->
+                  <OrganisationFormattedName>?</OrganisationFormattedName>
+                  <!--0 to 4 repetitions:-->
+                  <PersonFormattedName>?</PersonFormattedName>
+                  <!--Zero or more repetitions:-->
+                  <PhoneNumber>
+                     <!--Optional:-->
+                     <AreaID>?</AreaID>
+                     <!--Optional:-->
+                     <SubscriberID>?</SubscriberID>
+                     <!--Optional:-->
+                     <ExtensionID>?</ExtensionID>
+                     <!--Optional:-->
+                     <CountryCode>?</CountryCode>
+                     <!--Optional:-->
+                     <CountryDiallingCode>?</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="?">?</CountryName>
+                  </PhoneNumber>
+                  <!--Zero or more repetitions:-->
+                  <FaxNumber>
+                     <!--Optional:-->
+                     <AreaID>?</AreaID>
+                     <!--Optional:-->
+                     <SubscriberID>?</SubscriberID>
+                     <!--Optional:-->
+                     <ExtensionID>?</ExtensionID>
+                     <!--Optional:-->
+                     <CountryCode>?</CountryCode>
+                     <!--Optional:-->
+                     <CountryDiallingCode>?</CountryDiallingCode>
+                     <!--Optional:-->
+                     <CountryName languageCode="?">?</CountryName>
+                  </FaxNumber>
+                  <!--Zero or more repetitions:-->
+                  <EmailURI schemeID="?">?</EmailURI>
+               </ContactPerson>
+            </RecipientParty>
+            <!--Optional:-->
+            <BusinessScope>
+               <TypeCode listID="?" listVersionID="?" listAgencyID="?" listAgencySchemeID="?" listAgencySchemeAgencyID="?">?</TypeCode>
+               <!--Optional:-->
+               <InstanceID schemeID="?" schemeAgencyID="?">?</InstanceID>
+               <!--Optional:-->
+               <ID schemeID="?" schemeAgencyID="?">?</ID>
+            </BusinessScope>
+         </MessageHeader>
+         <!--1 or more repetitions:-->
+         <BusinessPartnerSUITEReplicateConfirmationMessage>
+            <MessageHeader BusinessDocumentObjectListCompleteTransmissionIndicator="?">
+               <!--Optional:-->
+               <ID schemeID="?" schemeAgencyID="?" schemeAgencySchemeAgencyID="?">?</ID>
+               <!--Optional:-->
+               <UUID schemeID="?" schemeAgencyID="?">?</UUID>
+               <!--Optional:-->
+               <ReferenceID schemeID="?" schemeAgencyID="?" schemeAgencySchemeAgencyID="?">?</ReferenceID>
+               <!--Optional:-->
+               <ReferenceUUID schemeID="?" schemeAgencyID="?">?</ReferenceUUID>
+               <!--Optional:-->
+               <CreationDateTime>?</CreationDateTime>
+               <!--Optional:-->
+               <TestDataIndicator>?</TestDataIndicator>
+               <!--Optional:-->
+               <ReconciliationIndicator>?</ReconciliationIndicator>
+               <!--Optional:-->
+               <SenderBusinessSystemID>?</SenderBusinessSystemID>
+               <!--Optional:-->
+               <RecipientBusinessSystemID>?</RecipientBusinessSystemID>
+               <!--Optional:-->
+               <SenderParty>
+                  <!--Optional:-->
+                  <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+                  <!--Zero or more repetitions:-->
+                  <StandardID schemeAgencyID="?">?</StandardID>
+                  <!--Optional:-->
+                  <ContactPerson>
+                     <!--Optional:-->
+                     <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+                     <!--0 to 4 repetitions:-->
+                     <OrganisationFormattedName>?</OrganisationFormattedName>
+                     <!--0 to 4 repetitions:-->
+                     <PersonFormattedName>?</PersonFormattedName>
+                     <!--Zero or more repetitions:-->
+                     <PhoneNumber>
+                        <!--Optional:-->
+                        <AreaID>?</AreaID>
+                        <!--Optional:-->
+                        <SubscriberID>?</SubscriberID>
+                        <!--Optional:-->
+                        <ExtensionID>?</ExtensionID>
+                        <!--Optional:-->
+                        <CountryCode>?</CountryCode>
+                        <!--Optional:-->
+                        <CountryDiallingCode>?</CountryDiallingCode>
+                        <!--Optional:-->
+                        <CountryName languageCode="?">?</CountryName>
+                     </PhoneNumber>
+                     <!--Zero or more repetitions:-->
+                     <FaxNumber>
+                        <!--Optional:-->
+                        <AreaID>?</AreaID>
+                        <!--Optional:-->
+                        <SubscriberID>?</SubscriberID>
+                        <!--Optional:-->
+                        <ExtensionID>?</ExtensionID>
+                        <!--Optional:-->
+                        <CountryCode>?</CountryCode>
+                        <!--Optional:-->
+                        <CountryDiallingCode>?</CountryDiallingCode>
+                        <!--Optional:-->
+                        <CountryName languageCode="?">?</CountryName>
+                     </FaxNumber>
+                     <!--Zero or more repetitions:-->
+                     <EmailURI schemeID="?">?</EmailURI>
+                  </ContactPerson>
+               </SenderParty>
+               <!--Optional:-->
+               <RecipientParty>
+                  <!--Optional:-->
+                  <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+                  <!--Zero or more repetitions:-->
+                  <StandardID schemeAgencyID="?">?</StandardID>
+                  <!--Optional:-->
+                  <ContactPerson>
+                     <!--Optional:-->
+                     <InternalID schemeID="?" schemeAgencyID="?">?</InternalID>
+                     <!--0 to 4 repetitions:-->
+                     <OrganisationFormattedName>?</OrganisationFormattedName>
+                     <!--0 to 4 repetitions:-->
+                     <PersonFormattedName>?</PersonFormattedName>
+                     <!--Zero or more repetitions:-->
+                     <PhoneNumber>
+                        <!--Optional:-->
+                        <AreaID>?</AreaID>
+                        <!--Optional:-->
+                        <SubscriberID>?</SubscriberID>
+                        <!--Optional:-->
+                        <ExtensionID>?</ExtensionID>
+                        <!--Optional:-->
+                        <CountryCode>?</CountryCode>
+                        <!--Optional:-->
+                        <CountryDiallingCode>?</CountryDiallingCode>
+                        <!--Optional:-->
+                        <CountryName languageCode="?">?</CountryName>
+                     </PhoneNumber>
+                     <!--Zero or more repetitions:-->
+                     <FaxNumber>
+                        <!--Optional:-->
+                        <AreaID>?</AreaID>
+                        <!--Optional:-->
+                        <SubscriberID>?</SubscriberID>
+                        <!--Optional:-->
+                        <ExtensionID>?</ExtensionID>
+                        <!--Optional:-->
+                        <CountryCode>?</CountryCode>
+                        <!--Optional:-->
+                        <CountryDiallingCode>?</CountryDiallingCode>
+                        <!--Optional:-->
+                        <CountryName languageCode="?">?</CountryName>
+                     </FaxNumber>
+                     <!--Zero or more repetitions:-->
+                     <EmailURI schemeID="?">?</EmailURI>
+                  </ContactPerson>
+               </RecipientParty>
+               <!--Optional:-->
+               <BusinessScope>
+                  <TypeCode listID="?" listVersionID="?" listAgencyID="?" listAgencySchemeID="?" listAgencySchemeAgencyID="?">?</TypeCode>
+                  <!--Optional:-->
+                  <InstanceID schemeID="?" schemeAgencyID="?">?</InstanceID>
+                  <!--Optional:-->
+                  <ID schemeID="?" schemeAgencyID="?">?</ID>
+               </BusinessScope>
+            </MessageHeader>
+            <BusinessPartner multipleAssignmentListCompleteTransmissionIndicator="?">
+               <!--Optional:-->
+               <UUID schemeID="?" schemeAgencyID="?">?</UUID>
+               <!--Optional:-->
+               <InternalID>?</InternalID>
+               <!--Optional:-->
+               <ReceiverUUID schemeID="?" schemeAgencyID="?">?</ReceiverUUID>
+               <!--Optional:-->
+               <ReceiverInternalID>?</ReceiverInternalID>
+               <!--Optional:-->
+               <ExternalID schemeID="?" schemeVersionID="?" schemeAgencyID="?">?</ExternalID>
+               <!--Optional:-->
+               <Customer>
+                  <!--Optional:-->
+                  <InternalID>?</InternalID>
+                  <!--Optional:-->
+                  <ReceiverInternalID>?</ReceiverInternalID>
+                  <!--Optional:-->
+                  <OldReceiverInternalID>?</OldReceiverInternalID>
+               </Customer>
+               <!--Optional:-->
+               <Supplier>
+                  <!--Optional:-->
+                  <InternalID>?</InternalID>
+                  <!--Optional:-->
+                  <ReceiverInternalID>?</ReceiverInternalID>
+                  <!--Optional:-->
+                  <OldReceiverInternalID>?</OldReceiverInternalID>
+               </Supplier>
+               <!--Zero or more repetitions:-->
+               <MultipleAssignment>
+                  <!--Optional:-->
+                  <Customer>
+                     <!--Optional:-->
+                     <InternalID>?</InternalID>
+                     <!--Optional:-->
+                     <ReceiverInternalID>?</ReceiverInternalID>
+                     <!--Optional:-->
+                     <OldReceiverInternalID>?</OldReceiverInternalID>
+                  </Customer>
+                  <!--Optional:-->
+                  <Supplier>
+                     <!--Optional:-->
+                     <InternalID>?</InternalID>
+                     <!--Optional:-->
+                     <ReceiverInternalID>?</ReceiverInternalID>
+                     <!--Optional:-->
+                     <OldReceiverInternalID>?</OldReceiverInternalID>
+                  </Supplier>
+               </MultipleAssignment>
+            </BusinessPartner>
+            <!--Optional:-->
+            <Log>
+               <!--Optional:-->
+               <BusinessDocumentProcessingResultCode>?</BusinessDocumentProcessingResultCode>
+               <!--Optional:-->
+               <MaximumLogItemSeverityCode>?</MaximumLogItemSeverityCode>
+               <!--Zero or more repetitions:-->
+               <Item>
+                  <!--Optional:-->
+                  <TypeID>?</TypeID>
+                  <!--Optional:-->
+                  <CategoryCode listID="?" listVersionID="?" listAgencyID="?" listAgencySchemeID="?" listAgencySchemeAgencyID="?">?</CategoryCode>
+                  <!--Optional:-->
+                  <SeverityCode>?</SeverityCode>
+                  <!--Optional:-->
+                  <ReferenceObjectNodeSenderTechnicalID>?</ReferenceObjectNodeSenderTechnicalID>
+                  <!--Optional:-->
+                  <ReferenceMessageElementName>?</ReferenceMessageElementName>
+                  <Note>?</Note>
+                  <!--Optional:-->
+                  <NoteTemplateText>?</NoteTemplateText>
+                  <!--Optional:-->
+                  <LogItemNotePlaceholderSubstitutionList>
+                     <FirstPlaceholderID>?</FirstPlaceholderID>
+                     <!--Optional:-->
+                     <SecondPlaceholderID>?</SecondPlaceholderID>
+                     <!--Optional:-->
+                     <ThirdPlaceholderID>?</ThirdPlaceholderID>
+                     <!--Optional:-->
+                     <FourthPlaceholderID>?</FourthPlaceholderID>
+                     <FirstPlaceholderSubstitutionText>?</FirstPlaceholderSubstitutionText>
+                     <!--Optional:-->
+                     <SecondPlaceholderSubstitutionText>?</SecondPlaceholderSubstitutionText>
+                     <!--Optional:-->
+                     <ThirdPlaceholderSubstitutionText>?</ThirdPlaceholderSubstitutionText>
+                     <!--Optional:-->
+                     <FourthPlaceholderSubstitutionText>?</FourthPlaceholderSubstitutionText>
+                  </LogItemNotePlaceholderSubstitutionList>
+                  <!--Optional:-->
+                  <WebURI>?</WebURI>
+               </Item>
+            </Log>
+         </BusinessPartnerSUITEReplicateConfirmationMessage>
+      </glob:BusinessPartnerSUITEBulkReplicateConfirmation>
+   </soapenv:Body>
+</soapenv:Envelope>
